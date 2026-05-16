@@ -1,0 +1,12 @@
+<web-app>
+	<servlet>
+    <servlet-name>SubscriptionServlet</servlet-name>
+    <servlet-class>SubscriptionServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+    <servlet-name>SubscriptionServlet</servlet-name>
+    <url-pattern>/SubscriptionServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
+
